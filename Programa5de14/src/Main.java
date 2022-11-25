@@ -16,7 +16,6 @@ public class Main {
             System.out.println( i+  " * 10 = " + (i*10));
             System.out.println("*******");
 
-
         }
 
     }
