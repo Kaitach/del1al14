@@ -7,7 +7,7 @@ public class Main {
         int cantidad = Integer.parseInt(JOptionPane.showInputDialog("Elevar a la: "));
         int  total=numero;
 
-        for (int i=1; i<=cantidad; i++)
+        for (int i=2; i<=cantidad; i++)
         {
             total *= numero;
         }
