@@ -9,17 +9,17 @@ public class Main {
         JOptionPane.showMessageDialog(null, "El costo del producto es de $" + costo);
     }
     else if (costo>501 && costo <= 1000){
-        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*1.05));
+        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*0.95));
 
     }
     else if (costo>1001 && costo <= 7000){
-        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*1.11));
+        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*0.89));
     }
     else if (costo>7001 && costo <= 15000){
-        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*1.18));
+        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*0.82);
     }
     else {
-        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*1.25));
+        JOptionPane.showMessageDialog(null, "El costo del producto es de $" + (costo*0.75);
 
     }
 
