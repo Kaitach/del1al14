@@ -6,11 +6,12 @@ public class Main {
 
             if (diferencial == 2) {
                 diferencial =3;
-                i= i+diferencial;
+                i= i+2;
+
             }
             else {
                 diferencial = 2;
-                i= i+diferencial;
+                i= i+3;
 
             }
 
